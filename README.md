@@ -9,11 +9,11 @@ By default, the project has Apple's Metal acceleration enabled. If you are not o
 
 Rust Toolchain
 You'll need to use the nightly Rust toolchain, and install the wasm32-unknown-unknown target as well as the Trunk and cargo-leptos tools:
-
   
-  rustup toolchain install nightly
-  rustup target add wasm32-unknown-unknown
-  cargo install trunk cargo-leptos
+      
+      rustup toolchain install nightly
+      rustup target add wasm32-unknown-unknown
+      cargo install trunk cargo-leptos
 
 
   Model
